@@ -1,0 +1,32 @@
+#projects{
+    width: 100vw;
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.projects-heading{
+    margin-bottom: 20px;
+}
+
+.projects-subheading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.projects-subheading h1{
+    padding: 2px 6px 2px 6px;
+    border: #ffd700 solid 1.5px;
+    border-radius: 5px;
+    background-color: #313131;
+    letter-spacing: 2px;
+    font-family: 'Abhaya Libre', serif;
+}
