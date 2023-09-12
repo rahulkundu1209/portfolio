@@ -1,8 +1,7 @@
 import './Home.css';
 import React from 'react';
 import bg from '../../assets/rahul_bg_photo.png';
-import { Link } from 'react-scroll';
-import ModifiedButton02 from '../UI/ModifiedButton02';
+import Resume from '../../assets/Resume.pdf';
 
 const Home = () =>{
     return(
@@ -14,7 +13,7 @@ const Home = () =>{
                     I'm
                     <span className='intro-name'> Rahul</span>
                     <p className='intro-para'>An Undergrad Student</p>
-                    <Link><ModifiedButton02 className=''>My CV</ModifiedButton02></Link>
+                    <a href={Resume} target='_blank'><button className='resume-button'>Resume</button></a>
                 </span>
             </div>
         </section>

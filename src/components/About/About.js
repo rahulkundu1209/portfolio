@@ -12,7 +12,7 @@ const About = (props) =>{
         <section id="about">
             <div className="about-me">
                 <div>
-                    <Heading content= "ABOUT ME" fontSize = "45px"/>
+                    <Heading content= "ABOUT ME" fontSize = "35px"/>
                 </div>
                 <div className="about-content">
                     <div className="text-zone">
@@ -28,7 +28,7 @@ const About = (props) =>{
             
             <div className="education">
                 <div>
-                    <Heading content="EDUCATION" fontSize = "35px" className="education-heading"/>
+                    <Heading content="EDUCATION" fontSize = "30px" className="education-heading"/>
                 </div>
                 <div className="education-content">
                     <div>
@@ -57,10 +57,10 @@ const About = (props) =>{
                     </div>
                 </div>
             </div>
-            <Hobby/>
+            {/* <Hobby/> */}
             <div className="skills">
                 <div>
-                    <Heading content="SKILLS" fontSize = "35px"/>
+                    <Heading content="SKILLS" fontSize = "30px"/>
                 </div>
                 <div className="skills-content">
                     <div className="rotating-cube">

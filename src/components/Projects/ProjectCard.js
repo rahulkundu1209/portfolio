@@ -1,6 +1,5 @@
 import React from 'react';
 import './ProjectsCard.css';
-import {Link } from 'react-scroll';
 import Button from '../UI/ModifiedButton';
 
 function ProjectCard(props) {
@@ -15,8 +14,8 @@ function ProjectCard(props) {
         </span>
         <p className="project-card-technologies">{props.technologies}</p>
         <div className="project-card-button-container">
-          <Link href={props.link}><Button>{props.btn1}</Button></Link>
-          <Link href={props.link}><Button>{props.btn2}</Button></Link>
+          <a href={props.link1} target='_blank'><Button>{props.btn1}</Button></a>
+          <a href={props.link2} target='_blank'><Button>{props.btn2}</Button></a>
         </div>
     </div>
   )

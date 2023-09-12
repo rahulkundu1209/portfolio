@@ -30,3 +30,25 @@
     letter-spacing: 2px;
     font-family: 'Abhaya Libre', serif;
 }
+
+.projects-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.web-projects-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 1050px) {
+    .web-projects-content{
+        flex-direction: column;
+    }
+}

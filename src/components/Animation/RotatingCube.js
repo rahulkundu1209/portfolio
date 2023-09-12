@@ -1,7 +1,7 @@
 import './RotatingCube.css';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCss3, faGitAlt, faHtml5, faJava, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faCss3, faGitAlt, faHtml5, faJava, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
 import { faC } from '@fortawesome/free-solid-svg-icons';
 
 const RotatingCube = () => {
@@ -18,7 +18,7 @@ const RotatingCube = () => {
                 <FontAwesomeIcon icon={faCss3} color='#28A4D9' />
             </div>
             <div className='face4'>
-                <FontAwesomeIcon icon={faJava} color='#DD0031' />
+                <FontAwesomeIcon icon={faPython} color='#DD0031' />
             </div>
             <div className='face5'>
                 <FontAwesomeIcon icon={faReact} color='#5ED4F4' />

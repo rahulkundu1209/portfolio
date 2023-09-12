@@ -1,10 +1,15 @@
 .education-card{
     width: 45vw;
     min-width: 380px;
-    margin: 6px;
-    box-shadow: 2px 2px 5px #444;
-    animation: fadeInUp 2s 0s forwards;
-    background-color: #131313;
+    margin: 20px;
+    box-shadow: 2px 2px 5px #a2a2a2;
+    /* animation: fadeInUp 2s 0s forwards; */
+    transition: transform 0.3s ease-in-out;
+    background-color: #313131;
+}
+
+.education-card:hover{
+    transform: translateY(-7px);
 }
 .education-card h2{
     font-size: 20px;
@@ -31,6 +36,7 @@
     padding: 2px 5px;
     margin: 10px 5px;
     border: solid #ffd700 1px;
+    border-radius: 5px;
     width: fit-content;
     background-color: #2d2d2d;
     font-weight: 100;

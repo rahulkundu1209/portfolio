@@ -29,7 +29,8 @@
 .chart-bar__fill {
     padding: 7px;
     border-radius: 12px 0px 0px 12px;
-    background-color: #0098ff;
+    /* background-color: #0098ff; */
+    background-image: linear-gradient(to right, #01579B, #03A9F4);
     opacity: 0.4;
     width: 100%;
     transition: all 0.3s ease-out;

@@ -71,7 +71,7 @@ const NavBar = () => {
         </div>
         {ReactDOM.createPortal(<Backdrop onConfirm={()=>setShowMenu(false)} showMenu={showMenu}/>, document.getElementById("backdrop-root"))}
         
-        <Link activeClass='active' to='contact-page' spy={true} smooth={true} offset={0} duration={500} className='contact-button'>
+        <Link activeClass='active' to='contact-page' spy={true} smooth={true} offset={-50} duration={500} className='contact-button'>
             <Button>Contact Me</Button>
         </Link>
     </nav>

@@ -1,6 +1,5 @@
 #contact-page{
     width: 100vw;
-    height: 100vh;
     max-width: 90vw;
     display: flex;
     flex-direction: column;
@@ -67,6 +66,7 @@
 
 textarea {
     width: 100%;
+    min-width: 100%;
     border: 0;
     background: #0b5345;
     height: 50px;

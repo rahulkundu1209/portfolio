@@ -22,7 +22,7 @@ const SkillsChart = () => {
     },
     {
       label: 'React Js',
-      value: 30
+      value: 50
     },
     // {
     //   label: 'Next Js',

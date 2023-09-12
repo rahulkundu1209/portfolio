@@ -11,10 +11,10 @@
     transition: 0.3s;
     user-select: none;
     position: absolute;
-    width: 300px;
+    width: 270px;
     border-radius: 20px;
     box-shadow: -20px 0px 20px rgba(0, 0, 0, 0.4);
-    transform: rotateY(40deg);
+    transform: rotateY(20deg);
 }
 
 .photo-card:last-child{
@@ -26,7 +26,7 @@
 }
 
 .photo-card:hover>img{
-    transform: rotateY(20deg);
+    transform: rotateY(10deg);
     box-shadow: -5px 0 5px rgb(18, 18, 18, 0.8);
 }
 
@@ -34,7 +34,7 @@
     /* display: flex;
     align-items: center;
     justify-content: center; */
-    position: absolute;
+    /* position: absolute; */
     width: 250px;
     z-index: 5;
     scale: 1.3;

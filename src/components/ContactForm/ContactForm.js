@@ -8,7 +8,7 @@ import Heading from '../UI/Heading';
 function ContactForm() {
   return (
     <div id='contact-page'>
-        <Heading content = "CONTACT ME" fontSize="25px" className="contact-page-heading"/>
+        <Heading content = "CONTACT ME" fontSize="20px" className="contact-page-heading"/>
         <div className='contact-page-description'>
             <p>Please fill out the form to contact with me for any kind of work opportunity or collaboration.</p>
         </div>
