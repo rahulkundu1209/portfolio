@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/rahul-kundu/static/css/main.3b1202e0.css",
+    "main.js": "/rahul-kundu/static/js/main.74420027.js",
+    "static/media/p_6.jpg": "/rahul-kundu/static/media/p_6.3e21c3aa35e99b588edf.jpg",
+    "static/media/p_2.jpg": "/rahul-kundu/static/media/p_2.6752a8aea00beaeb8559.jpg",
+    "static/media/p_4.jpg": "/rahul-kundu/static/media/p_4.5b58908241ce238cefa4.jpg",
+    "static/media/p_5.jpg": "/rahul-kundu/static/media/p_5.41885bc95e4e3eff5e83.jpg",
+    "static/media/p_3.jpg": "/rahul-kundu/static/media/p_3.863a5383b40e6495c22d.jpg",
+    "static/media/p_1.jpg": "/rahul-kundu/static/media/p_1.ff3d86890e2846341cf0.jpg",
+    "static/media/investmentCalculatorImage.jpg": "/rahul-kundu/static/media/investmentCalculatorImage.22d8f81ef8d4f8a06719.jpg",
+    "static/media/foodOrderAppImage.jpg": "/rahul-kundu/static/media/foodOrderAppImage.94946f330b8abaf21875.jpg",
+    "static/media/portfolioImage.jpg": "/rahul-kundu/static/media/portfolioImage.33a3836874091023364f.jpg",
+    "static/media/rahul_bg_photo.png": "/rahul-kundu/static/media/rahul_bg_photo.e4e7a8c20e013b95b727.png",
+    "static/media/logo-r.png": "/rahul-kundu/static/media/logo-r.9242451de19ec54d5df7.png",
+    "static/media/Resume.pdf": "/rahul-kundu/static/media/Resume.0c6059d50e0f957523cf.pdf",
+    "static/media/arrow-down-sign-to-navigate.ico": "/rahul-kundu/static/media/arrow-down-sign-to-navigate.2794a61fdee0f97d55c6.ico",
+    "index.html": "/rahul-kundu/index.html",
+    "main.3b1202e0.css.map": "/rahul-kundu/static/css/main.3b1202e0.css.map",
+    "main.74420027.js.map": "/rahul-kundu/static/js/main.74420027.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b1202e0.css",
+    "static/js/main.74420027.js"
+  ]
+}
