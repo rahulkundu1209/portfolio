@@ -1,0 +1,12 @@
+.chart{
+    padding: 10px;
+    background-color: #313131;
+    width: auto;
+    padding: auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.chart h1{
+    text-align: center;
+}

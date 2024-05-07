@@ -1,0 +1,19 @@
+.customized-button-02{
+    width: fit-content;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    padding: 10px 12px;
+    text-decoration: none;
+    border: 2px solid #ffd700;
+    border-radius: 2px;
+    background-image: linear-gradient(180deg, #454545, #000000);
+    /* cursor: pointer; */
+    text-align: center;
+}
+
+.customized-button-02:hover{
+    background-image: linear-gradient(180deg, #000000, #454545);
+}

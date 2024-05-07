@@ -1,0 +1,1 @@
+1. Added preloader(added a spinner block before root in public/index.html)

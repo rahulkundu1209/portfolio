@@ -1,0 +1,136 @@
+.photo-polaroids{
+  align-items: center;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  margin: auto;
+  overflow: scroll;
+  height: 750px;
+  width: 650px;
+
+  @media screen and (max-width: 840px){
+    width: 90vw;
+    height: 600px;
+  }
+}
+
+.pictures-pile {
+  position: relative;
+  height: min(80vh, 80vw);
+  width: min(80vh, 80vw);
+}
+
+figure {
+  aspect-ratio: 5/6;
+  background-color: #f2f2f2;
+  background-image: url("https://transparenttextures.com/patterns/polaroid.png");
+  box-shadow: 6px 3px 6px 0 rgb(0 0 0 / 70%);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  isolation: isolate;
+  padding: 20px;
+  position: absolute;
+  transition: translate 0.6s ease-out, rotate 0.6s ease-out;
+  width: 200px;
+
+  @media screen and (max-width: 720px) {
+      padding: 15px;
+      width: 150px;
+
+      figcaption {
+          font-size: 18px !important;
+      }
+  }
+
+  &:nth-child(1) {
+      rotate: 10deg;
+      top: -5%;
+      left: 40%;
+      z-index: 1;
+
+      &:hover {
+          rotate: 2deg;
+          translate: 35% -25%;
+          ~ figure:nth-child(3) {
+            rotate: 15deg;
+            translate: 10% 23%;
+        }
+      }
+  }
+
+  &:nth-child(2) {
+      rotate: -18deg;
+      top: 7%;
+      left: 16%;
+      z-index: 2;
+
+      &:hover {
+          rotate: 3deg;
+          translate: -20% -40%;
+          ~ figure:nth-child(4) {
+            translate: 10% 20%;
+        }
+      }
+  }
+
+  &:nth-child(3) {
+      rotate: 21deg;
+      top: 22%;
+      left: 40%;
+      z-index: 3;
+
+      &:hover {
+          rotate: 2deg;
+          translate: -30% -60%;
+
+          ~ figure:nth-child(4) {
+              rotate: -17deg;
+              translate: 20% 26%;
+          }
+      }
+  }
+
+  &:nth-child(4) {
+      rotate: -30deg;
+      top: 29%;
+      left: 13%;
+      z-index: 4;
+
+      &:hover {
+          translate: -40% -8%;
+          rotate: -5deg;
+
+          ~ figure:nth-child(5) {
+              rotate: 17deg;
+              translate: 10% 13%;
+          }
+      }
+  }
+
+  &:nth-child(5) {
+      rotate: 14deg;
+      top: 45%;
+      left: 30%;
+      z-index: 5;
+
+      &:hover {
+          rotate: 3deg;
+          translate: 10% -17%;
+      }
+  }
+}
+
+.photo-polaroids-img{
+  filter: sepia(0.3);
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+figcaption {
+  align-self: center;
+  font-family: "Indie Flower", cursive;
+  font-size: 18px;
+  text-align: center;
+  color: #000;
+}

@@ -1,0 +1,84 @@
+  .wrapper {
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    transition: 0.15s ease;
+  }
+  .wrapper.active .arrow {
+    transform: rotate(45deg) translate(-5px, -5px);
+  }
+  .wrapper.active .arrow:before {
+    transform: translate(10px, 0);
+  }
+  .wrapper.active .arrow:after {
+    transform: rotate(90deg) translate(10px, 0);
+  }
+  .wrapper.active ul {
+    opacity: 0.3;
+    height: 108px;
+  }
+  .wrapper3 .arrow {
+    transform: rotate(0);
+    left: 0;
+  }
+  .wrapper3 .arrow:before, .wrapper3 .arrow:after {
+    background-color: transparent;
+    width: 3px;
+    height: 10px;
+    display: inline-block;
+    position: absolute;
+    border-bottom: 12px solid white;
+    top: 0;
+    left: 0;
+    transform: rotate(0);
+  }
+  .wrapper3 .arrow:before {
+    transform: rotate(-135deg);
+  }
+  .wrapper3 .arrow:after {
+    transform: rotate(135deg);
+  }
+  .wrapper3.active .arrow {
+    transform: rotate(0);
+    transform: translate(0, -6px);
+  }
+  .wrapper3.active .arrow:before {
+    transform: rotate(-45deg);
+  }
+  .wrapper3.active .arrow:after {
+    transform: rotate(45deg);
+  }
+  
+  .arrow {
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    position: relative;
+    bottom: -5px;
+    left: -10px;
+    transition: 0.4s ease;
+    margin-top: 2px;
+    text-align: left;
+    transform: rotate(45deg);
+    float: right;
+  }
+  .arrow:before, .arrow:after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 3px;
+    background-color: #fff;
+    transition: 0.4s ease;
+  }
+  .arrow:after {
+    position: absolute;
+    transform: rotate(90deg);
+    top: -5px;
+    left: 5px;
+  }
