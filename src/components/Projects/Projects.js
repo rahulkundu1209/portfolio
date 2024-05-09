@@ -4,6 +4,7 @@ import ProjectCard from './ProjectCard';
 import portfolioImage from '../../assets/projectImages/portfolioImage.jpg';
 import investmentCalculatorImage from '../../assets/projectImages/investmentCalculatorImage.jpg';
 import foodOrderImage from '../../assets/projectImages/foodOrderAppImage.jpg';
+import learnExerciseAppImage from '../../assets/projectImages/learnExerciseAppImage.jpg';
 import Heading from '../UI/Heading'
 import ModifiedButton02 from '../UI/ModifiedButton02';
 
@@ -38,12 +39,12 @@ function Projects() {
     },
     {
       type: "web",
-      heading: "Food Order App",
-      image: foodOrderImage,
-      description: "It is a food order app for a resturant, although till now it doesn't have any functional database, working on it..",
+      heading: "Learn Exercise App",
+      image: learnExerciseAppImage,
+      description: "In this web app you can search for exercises by there name or involved body part. You can sign in to bookmark an exercise and easily find it later.",
       technologies: "ReactJS",
-      code: "https://github.com/rahulkundu1209",
-      demo: ""
+      code: "https://github.com/rahulkundu1209/learn-exercises.git",
+      demo: "https://learn-exercises-beb83.web.app/"
     }
   ]
 
