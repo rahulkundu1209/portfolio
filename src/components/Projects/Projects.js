@@ -5,11 +5,30 @@ import portfolioImage from '../../assets/projectImages/portfolioImage.jpg';
 import investmentCalculatorImage from '../../assets/projectImages/investmentCalculatorImage.jpg';
 import foodOrderImage from '../../assets/projectImages/foodOrderAppImage.jpg';
 import learnExerciseAppImage from '../../assets/projectImages/learnExerciseAppImage.jpg';
+import thrivehivesImage from '../../assets/projectImages/thrivehivesImage.jpg';
 import Heading from '../UI/Heading'
 import ModifiedButton02 from '../UI/ModifiedButton02';
 
 function Projects() {
   const projects = [
+    {
+      type: "web",
+      heading: "Thrive Hives",
+      image: thrivehivesImage,
+      description: "The website aims to provide tools to students enrolled in the Thrive Hives course.",
+      technologies: "ReactJS | NodeJS | ExpressJS | Supabase",
+      code: "https://github.com/rahulkundu1209/ThriveHive-web",
+      demo: "https://thrive-hives.vercel.app/"
+    },
+    {
+      type: "web",
+      heading: "Learn Exercise App",
+      image: learnExerciseAppImage,
+      description: "In this web app you can search for exercises by there name or involved body part. You can sign in to bookmark an exercise and easily find it later.",
+      technologies: "ReactJS",
+      code: "https://github.com/rahulkundu1209/learn-exercises.git",
+      demo: "https://learn-exercises-beb83.web.app/"
+    },
     {
       type: "web",
       heading: "Portfolio",
@@ -37,15 +56,6 @@ function Projects() {
       code: "https://github.com/rahulkundu1209",
       demo: ""
     },
-    {
-      type: "web",
-      heading: "Learn Exercise App",
-      image: learnExerciseAppImage,
-      description: "In this web app you can search for exercises by there name or involved body part. You can sign in to bookmark an exercise and easily find it later.",
-      technologies: "ReactJS",
-      code: "https://github.com/rahulkundu1209/learn-exercises.git",
-      demo: "https://learn-exercises-beb83.web.app/"
-    }
   ]
 
   return (
