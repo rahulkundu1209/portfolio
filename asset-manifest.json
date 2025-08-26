@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.03758d75.css",
-    "main.js": "/portfolio/static/js/main.f506e9d6.js",
+    "main.js": "/portfolio/static/js/main.56c818ad.js",
     "static/media/p_1.jpg": "/portfolio/static/media/p_1.dfc5dc0d5b36b055e307.jpg",
     "static/media/p_2.jpg": "/portfolio/static/media/p_2.04be05dd7bd20ef14b34.jpg",
     "static/media/p_5.jpg": "/portfolio/static/media/p_5.55f86123ebb9f325a724.jpg",
@@ -11,18 +11,18 @@
     "static/media/foodOrderAppImage.jpg": "/portfolio/static/media/foodOrderAppImage.94946f330b8abaf21875.jpg",
     "static/media/portfolioImage.jpg": "/portfolio/static/media/portfolioImage.33a3836874091023364f.jpg",
     "static/media/rahul_bg_photo.png": "/portfolio/static/media/rahul_bg_photo.e4e7a8c20e013b95b727.png",
+    "static/media/Resume.pdf": "/portfolio/static/media/Resume.649849443fbfad53c4ee.pdf",
     "static/media/logo-r.png": "/portfolio/static/media/logo-r.9242451de19ec54d5df7.png",
-    "static/media/Resume.pdf": "/portfolio/static/media/Resume.0d67adec487f77f42bd4.pdf",
     "static/media/thrivehivesImage.jpg": "/portfolio/static/media/thrivehivesImage.ed29d33398c02b09bbd3.jpg",
     "static/media/learnExerciseAppImage.jpg": "/portfolio/static/media/learnExerciseAppImage.6545c3a861aae2ee358f.jpg",
     "static/media/cross.png": "/portfolio/static/media/cross.0f9ab5bb611c8f28bc7d.png",
     "static/media/arrow-down-sign-to-navigate.ico": "/portfolio/static/media/arrow-down-sign-to-navigate.2794a61fdee0f97d55c6.ico",
     "index.html": "/portfolio/index.html",
     "main.03758d75.css.map": "/portfolio/static/css/main.03758d75.css.map",
-    "main.f506e9d6.js.map": "/portfolio/static/js/main.f506e9d6.js.map"
+    "main.56c818ad.js.map": "/portfolio/static/js/main.56c818ad.js.map"
   },
   "entrypoints": [
     "static/css/main.03758d75.css",
-    "static/js/main.f506e9d6.js"
+    "static/js/main.56c818ad.js"
   ]
 }
